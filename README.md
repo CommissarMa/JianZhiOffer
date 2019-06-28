@@ -39,6 +39,21 @@
 题18：删除链表的节点 [[leetcode]](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)
 + 解法：将下一个结点的内容复制到当前结点，然后删除下一个结点即可
 
+★题19：正则表达式匹配 [[leetcode]](https://leetcode-cn.com/problems/regular-expression-matching/)
++ 解法：详细的分类讨论
+
+题21：按奇偶排序数组 [[leetcode]](https://leetcode-cn.com/problems/sort-array-by-parity/submissions/)
++ 解法：双指针，奇偶互换
+
+题22：链表中倒数第k个节点 [[牛客]](https://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a?tpId=13&tqId=11167&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)
++ 解法：快慢指针，快指针先走k步，慢指针再走
+
+题23：链表中环的入口节点
++ 解法：先用快慢指针判断是否有环；如果有环，那么从快慢相遇节点出发，再到相遇节点的时候，就可以得到环中节点的数量n。然后与题22一样快指针先走n步，那么慢指针最后指的就是入口节点
+
+题24：反转链表 [[leetcode]](https://leetcode-cn.com/problems/reverse-linked-list/)
++ 解法：循环 或 递归 或 栈
+
 题42：连续子数组的最大和 [[leetcode]](https://leetcode-cn.com/problems/maximum-subarray/)
 + 解法1：找规律，O(N)
 + 解法2：动态规划，O(N)，dp[i]表示以第i个元素结尾的子数组的最大和
